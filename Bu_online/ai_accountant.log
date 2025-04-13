@@ -1,0 +1,15 @@
+2025-04-13 02:57:03,035 - aiogram - INFO - Bot: Бот бухгалтер [@Bu_online_bot]
+2025-04-13 02:57:03,241 - aiogram - WARNING - Updates were skipped successfully.
+2025-04-13 02:57:03,241 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-04-13 02:57:43,688 - utils - ERROR - AI request failed: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-04-13 02:58:32,301 - aiogram - INFO - Bot: Бот бухгалтер [@Bu_online_bot]
+2025-04-13 02:58:32,427 - aiogram - WARNING - Updates were skipped successfully.
+2025-04-13 02:58:32,430 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-04-13 02:58:51,711 - utils - ERROR - AI request failed: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-04-13 03:06:31,146 - aiogram - INFO - Bot: Бот бухгалтер [@Bu_online_bot]
+2025-04-13 03:06:31,278 - aiogram - WARNING - Updates were skipped successfully.
+2025-04-13 03:06:31,279 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-04-13 03:07:03,355 - utils - WARNING - Attempt 1 failed: 
+2025-04-13 03:07:20,374 - utils - WARNING - Attempt 2 failed: 
+2025-04-13 03:07:26,274 - aiogram.dispatcher.dispatcher - INFO - Stop polling...
+2025-04-13 03:07:26,274 - aiogram - WARNING - Goodbye!

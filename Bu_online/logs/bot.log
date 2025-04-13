@@ -1,0 +1,47 @@
+2025-04-13 02:37:53,479 - __main__ - INFO - Starting bot...
+2025-04-13 02:37:53,739 - aiogram - INFO - Bot: Бот бухгалтер [@Bu_online_bot]
+2025-04-13 02:37:53,902 - aiogram - WARNING - Updates were skipped successfully.
+2025-04-13 02:37:53,903 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-04-13 02:38:53,362 - utils - INFO - Processing prompt with hash: ed9f252b391d9b628f091d6125d94f75
+2025-04-13 02:41:14,537 - __main__ - INFO - Starting bot...
+2025-04-13 02:41:14,725 - aiogram - INFO - Bot: Бот бухгалтер [@Bu_online_bot]
+2025-04-13 02:41:14,845 - aiogram - WARNING - Updates were skipped successfully.
+2025-04-13 02:41:14,849 - aiogram.dispatcher.dispatcher - INFO - Start polling.
+2025-04-13 02:41:18,882 - utils - INFO - Processing prompt with hash: 288785ffcb00186a34fc26930e3f09ae
+2025-04-13 02:41:34,283 - utils - ERROR - AI request failed: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-04-13 02:42:14,727 - utils - INFO - Processing prompt with hash: c405ee997a87132c1df0d51fc9c15a52
+2025-04-13 02:42:30,144 - utils - ERROR - AI request failed: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-04-13 02:42:40,046 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'DOC_TEMPLATES' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Вова\Desktop\Bu_online\main.py", line 168, in start_doc_gen
+    f"Доступные типы: {', '.join(DOC_TEMPLATES.keys())}",
+NameError: name 'DOC_TEMPLATES' is not defined
+2025-04-13 02:45:06,635 - utils - INFO - Processing prompt with hash: 687cbaa9b22ade1c0f1cc05347b42dbb
+2025-04-13 02:45:22,044 - utils - ERROR - AI request failed: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-04-13 02:45:36,735 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-82' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=NameError("name 'DOC_TEMPLATES' is not defined")>
+Traceback (most recent call last):
+  File "C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Вова\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Вова\Desktop\Bu_online\main.py", line 168, in start_doc_gen
+    f"Доступные типы: {', '.join(DOC_TEMPLATES.keys())}",
+NameError: name 'DOC_TEMPLATES' is not defined
